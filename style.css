@@ -2,30 +2,22 @@
     width: 100%;
     max-width: 800px;
     margin: 0 auto;
-    font-family: Arial, sans-serif;
-  }
-  .header {
+    padding: 20px;
+    border: 2px solid #333; /* Black border around the beat store */
+    border-radius: 8px;     /* Rounded corners */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow */
+    background-color: #f9f9f9; /* Light background for contrast */
+}
+.header {
     text-align: center;
-  }
-  .beat-item {
+    margin-bottom: 20px;
+}
+.beat-item {
     padding: 10px;
     border-bottom: 1px solid #ddd;
-  }
-  #licensing-modal {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 300px;
-    padding: 20px;
-    background: #fff;
-    border: 1px solid #ddd;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-  }
-  .license-option {
-    margin-top: 10px;
-  }
-  button {
-    margin-top: 10px;
-  }
-  
+    margin-bottom: 10px;
+}
+.beat-item h2 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
