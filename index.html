@@ -1,22 +1,35 @@
 <div id="beat-store">
     <!-- Header Section -->
     <div class="header">
-      <h1>🔥 CHIEF GOT BEATS] 🔥</h1>
+      <h1>🔥 [CHIEF GOT BEATS] 🔥</h1>
       <p>Discover exclusive beats for your next project. Play, select a license, and download instantly.</p>
     </div>
   
     <!-- Beat Player Section -->
     <div id="beat-list">
-      <div class="beat-item" data-beat-id="001" data-beat-name="Beat Title 1" data-price-basic="20" data-price-standard="40" data-price-premium="80">
-        <h2>Beat Title 1</h2>
-        <audio controls>
-          <source src="path/to/beat1.mp3" type="audio/mpeg">
-          Your browser does not support the audio element.
-        </audio>
-        <button onclick="showLicensingOptions('001')">Select License</button>
-      </div>
-      <!-- Repeat .beat-item div for each beat -->
+        <div class="beat-item" data-beat-id="001">
+            <h2>Beat Title 1</h2>
+            <audio controls>
+                <source src="./assets/beat1.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+        <div class="beat-item" data-beat-id="002">
+            <h2>Beat Title 2</h2>
+            <audio controls>
+                <source src="./assets/beat2.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+        <div class="beat-item" data-beat-id="003">
+            <h2>Beat Title 3</h2>
+            <audio controls>
+                <source src="./assets/beat3.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
     </div>
+</div>
   
     <!-- Licensing Modal -->
     <div id="licensing-modal" style="display: none;">
